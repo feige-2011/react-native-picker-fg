@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:beefe/react-native-picker.git"
+    "url": "git@github.com:feige-2011/react-native-picker-fg.git"
   },
   "author": "zooble",
   "license": "MIT",
-  "homepage": "https://github.com/beefe/react-native-picker"
+  "homepage": "https://github.com/feige-2011/react-native-picker-fg"
 }
