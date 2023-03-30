@@ -1,12 +1,14 @@
 package com.beefe.picker;
 
-import android.content.res.AssetManager;
+import static android.graphics.Color.argb;
+
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.graphics.Typeface;
-import androidx.annotation.NonNull;
+import android.os.Build;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -14,7 +16,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.os.Build;
+
+import androidx.annotation.Nullable;
 
 import com.beefe.picker.util.MIUIUtils;
 import com.beefe.picker.view.OnSelectedListener;
@@ -35,8 +38,6 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import java.util.ArrayList;
-
-import static android.graphics.Color.argb;
 
 /**
  * Author: <a href="https://github.com/shexiaoheng">heng</a>
